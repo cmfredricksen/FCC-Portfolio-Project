@@ -6,15 +6,7 @@
 
 .layout {
     background-color: cornsilk;
-}
-
-@media only screen and (min-width: 520px) {
-    
-    .layout {
-        background-color: pink;
-    }
-}
-   
+}  
 
 /*colors used are: palegoldenrod, pink, crimson, cornsilk.*/
 
@@ -191,5 +183,16 @@ img {
     line-height: 3;
     padding-top: 3em;
     
+}
+
+@media screen and (max-width: 720px) {
+    
+    .layout {
+        background-color: pink;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
 }
 
