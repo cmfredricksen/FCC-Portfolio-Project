@@ -185,6 +185,8 @@ img {
     
 }
 
+/*media queries for small screens*/
+
 @media screen and (max-width: 720px) {
     
     .layout {
